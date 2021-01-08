@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "836639173707",
+    "project_id": "capacitorml",
+    "storage_bucket": "capacitorml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836639173707:android:882fcf7b1fe6f33c2a71ce",
+        "android_client_info": {
+          "package_name": "com.gnykoua.CapacitorML"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836639173707-tuvl49i53qc9tkuv2vbn46fs16qb3lku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1gUo1utWNsE59n3gPKeIV6s6Ci28PfFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836639173707-tuvl49i53qc9tkuv2vbn46fs16qb3lku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

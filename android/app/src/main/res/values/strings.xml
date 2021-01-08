@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">TEXT-DETECTION</string>
+    <string name="title_activity_main">TEXT-DETECTION</string>
+    <string name="package_name">com.gnykoua.CapacitorML</string>
+    <string name="custom_url_scheme">com.gnykoua.CapacitorML</string>
+</resources>

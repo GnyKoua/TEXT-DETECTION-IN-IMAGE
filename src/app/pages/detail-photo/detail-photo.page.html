@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Détail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngIf="V_Result">
+  <ion-grid>
+    <ion-row class="ion-justify-content-center">
+      <ion-col>
+        <ion-img [src]="V_Result.photo.webviewPath"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+    <ion-list-header mode="md" color="medium">
+      <ion-label style="text-transform: uppercase;">Textes détectés</ion-label>
+    </ion-list-header>
+
+    <ion-item *ngFor="let item of V_Result.textDetected">
+      <ion-label>{{ item.text }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

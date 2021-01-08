@@ -1,0 +1,10 @@
+ion-col {
+    height: 200px !important;
+    width: 200px !important;
+    max-width: 200px !important;
+
+    ion-img {
+        height: 100% !important;
+        object-fit: cover !important;
+    }
+}

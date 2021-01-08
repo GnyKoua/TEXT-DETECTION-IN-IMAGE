@@ -1,0 +1,26 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Gallery photo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-fab-button color="primary" (click)="F_OnAddPhotoToGallery()">
+      <ion-icon name="camera-outline"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" size-sm="6" size-md="4" size-lg="3" size-xl="3"
+        *ngFor="let result of V_Results; index as position">
+        <ion-img [src]="result.photo.webviewPath" (click)="F_OnClick(result)"></ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
